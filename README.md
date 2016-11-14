@@ -7,3 +7,6 @@ It will convert it to text, which you can feed into Midi2List.java.
 
 # Using Midi2Lisp
 Example: java Midi2Lisp mario.txt mario_lisp.txt
+
+# Note
+Make SURE Midi2Lisp is in the same folder as your Cons.java file.
