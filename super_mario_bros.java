@@ -17,6 +17,6 @@
 
         PriorityQueue<Event> ma = initpq(list("sync", track1, track2, track3, track4));
         simulator(ma);
-        String mario = mstring(300);
-        System.out.println("sss : " + mario);
+        String mario = mstring(300); // this is the tempo of the track
+        System.out.println("mario : " + mario);
         player.play(new Pattern(mario));
